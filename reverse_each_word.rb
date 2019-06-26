@@ -6,6 +6,7 @@ def reverse_each_word(str)
      store.push (this_a.reverse)
   end
 p store
-p "#{store.join('')}"
+#p ["This", "is", "a", "test"].join(' ')
+p store.join(' ')
 
 end
