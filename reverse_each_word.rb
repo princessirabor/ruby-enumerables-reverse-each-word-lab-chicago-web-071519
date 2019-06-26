@@ -6,6 +6,6 @@ def reverse_each_word(str)
      store.push (this_a.reverse)
   end
 p store
-b = store.join('')
+b = store
 p b
 end
