@@ -3,6 +3,6 @@ def reverse_each_word(str)
   p str
   s = str
   new = s.split(\w)
-  p n[0]
+  p new[0]
 
 end
