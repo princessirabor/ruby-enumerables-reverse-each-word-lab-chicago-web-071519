@@ -1,8 +1,8 @@
 def reverse_each_word(str)
   a = str.split(" ")
+  p a[0].reverse
   a.each do |param|
-    a.reverse
-    p a.reverse
+    a.reverse 
   end
 
 end
