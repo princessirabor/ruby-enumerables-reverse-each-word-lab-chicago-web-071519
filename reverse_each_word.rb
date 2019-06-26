@@ -1,6 +1,7 @@
 def reverse_each_word(str)
   new =[]
-  new = %w[str]
-  p new
+  p str
+  n = str.split('')
+  p n
 
 end
