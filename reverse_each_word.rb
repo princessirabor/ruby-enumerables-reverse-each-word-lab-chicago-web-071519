@@ -1,9 +1,11 @@
 def reverse_each_word(str)
   a = str.split(" ")
-  p a[1].reverse
+  b= ""
   store = []
   a.each do |this_a|
      store.push (this_a.reverse)
   end
-store.to_s
+p store
+b = store.join('')
+p b
 end
