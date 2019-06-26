@@ -7,5 +7,5 @@ def reverse_each_word(str)
      store[i] = this_a.reverse
      i= i+1
   end
-store
+store.join
 end
